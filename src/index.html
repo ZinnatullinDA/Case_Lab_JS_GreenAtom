@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="todo-container">
+        <h1>Мой список дел:</h1>
+        <div class="form-row0">
+            <input type="text" id="todo-input" class="todo-input" placeholder="Введите задачу">
+            <button id="add-button" class="add-button">Добавить</button>  
+        </div>
+
+        <div class="form-row">
+            <button id="even-button" class="even-button">Выделить четные</button>
+            <button id="odd-button" class="odd-button">Выделить нечетные</button>
+        </div>
+
+        <div class="form-row">
+            <button id="remove-last-button" class="remove-last-button">Удалить последний</button>
+            <button id="remove-first-button" class="remove-first-button">Удалить первый</button>
+        </div>
+        <ul id="todo-list" class="todo-list"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
